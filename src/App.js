@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Table from "./componets/table/Table";
+import Table from "./componets/Table/Table";
 
 function App() {
   return (
