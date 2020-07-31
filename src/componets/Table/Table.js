@@ -15,6 +15,7 @@ let Table = (props) => {
     }
     return (
         <div>
+
             <div> Страницы
                 {pages.map(p => {
                     return (

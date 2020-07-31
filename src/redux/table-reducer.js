@@ -113,6 +113,20 @@ const tableReducer = (state = initialState, action) => {
                     email: action.email,
                     phone: action.phone
                 }, ...state.users],
+                usersCopy: [{
+                    id: action.id,
+                    firstName: action.firstName,
+                    lastName: action.lastName,
+                    email: action.email,
+                    phone: action.phone
+                }, ...state.usersCopy],
+                usersTotal: [{
+                    id: action.id,
+                    firstName: action.firstName,
+                    lastName: action.lastName,
+                    email: action.email,
+                    phone: action.phone
+                }, ...state.usersTotal],
                 userAdd: false
             }
         }
