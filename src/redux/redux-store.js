@@ -1,9 +1,9 @@
 import {combineReducers, createStore} from "redux";
-import usersReduscer from "./users-reducer";
+import tableReducer from "./table-reducer";
 
 
 let reducers = combineReducers({
-    usersPage: usersReduscer
+    usersPage: tableReducer
 })
 
 let store = createStore(reducers);
